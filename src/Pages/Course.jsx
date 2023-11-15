@@ -34,7 +34,7 @@ export default function Course(props) {
      }
 
   return (
-    <div className=' grid grid-cols-3 gap-2 w-3/4'>
+    <div className=' grid grid-cols-1 lg:grid-cols-3 gap-2 w-full lg:w-3/4'>
      {
           Data.map((data)=>(
                <div key={data.id} className=' bg-white w-full py-3 px-4 rounded-xl'>

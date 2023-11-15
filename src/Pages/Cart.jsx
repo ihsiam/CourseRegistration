@@ -16,7 +16,7 @@ export default function Cart(props) {
 
 
   return (
-    <div className='w-1/4 ml-4 bg-white px-4 py-3 h-fit rounded-xl'>
+    <div className='w-full lg:w-1/4 mt-4 md:mt-0 md:ml-4 bg-white px-4 py-3 h-fit rounded-xl'>
      <p className=' text-[#2F80ED] font-bold text-lg my-2 border-b-2 py-2'>Credit Hour Remaining 7 hr</p>
      <p className='text-xl font-bold'>Course Name</p>
      <ol className=' py-3 list-decimal px-4'>
